@@ -2,7 +2,10 @@
 
 ## Example custom ERC721 to enforce a flat fee on token transfer
 
-This example contract utilizes a custom OpenZeppelin ERC721 - ``"FutureERC721"`` -  that has been modified (by me) to assume that the following Solidity issue has been resolved:
+
+This example contract is designed to enforce the caller of transfer functions to either be an approved address or to pay a specified ``_flatFee``. 
+
+It utilizes a custom OpenZeppelin ERC721 - ``"FutureERC721"`` -  that has been modified (by me) to assume that the following Solidity issue has been resolved:
 
 >https://github.com/ethereum/solidity/issues/11253
 
