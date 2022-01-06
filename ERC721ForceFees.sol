@@ -67,7 +67,7 @@ contract ERC721ForceFees is Ownable, FutureERC721 {
         delete _approvedMarkets[marketAddress];
     }
 
-    /// @notice Mublic mint function for testing
+    /// @notice Public mint function for testing
     function mint(address to, uint256 id) external virtual {
         _mint(to, id);
     }
