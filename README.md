@@ -1,8 +1,8 @@
 # ERC721ForceFees
 
-## Sample custom ERC721 to enforce a flat fee on token transfer
+## Example custom ERC721 to enforce a flat fee on token transfer
 
-This sample contract utilizes a custom OpenZeppelin ERC721 - ``"FutureERC721"`` -  that has been modified (by me) to assume that the following Solidity issue has been resolved:
+This example contract utilizes a custom OpenZeppelin ERC721 - ``"FutureERC721"`` -  that has been modified (by me) to assume that the following Solidity issue has been resolved:
 
 >https://github.com/ethereum/solidity/issues/11253
 
